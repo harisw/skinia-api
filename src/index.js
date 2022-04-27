@@ -4,7 +4,7 @@ const { ApolloServer, gql } = require('apollo-server-express');
 require('dotenv').config();
 const db = require('./db');
 const models = require('./models');
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 const DB_HOST = process.env.DB_HOST;
 const express = require('express');
 const app = express();
